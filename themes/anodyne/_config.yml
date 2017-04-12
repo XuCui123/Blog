@@ -1,0 +1,59 @@
+# Logo
+logo_image_source: http://www.codeblocq.com/assets/projects/hexo-theme-anodyne/assets/anodyne.svg
+
+# Index Page
+index_banner_text: 莫名何以的博客
+index_banner_text_secondary: <i>岁月的溪边，捡拾起曾经的落叶，那些过往的画面，随风飘散，徒留一声叹。。。</i>
+index_font_awesome_icon_css: fa fa-magic
+
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  About: /about.html
+  Contact: /contact.html
+
+# Post
+default_post_title: Untitled
+default_post_icon: fa-file-text-o
+
+# Archive Date Format
+archive_date_format: MMM YYYY
+archive_font_awesome_icon_css: fa-folder-open
+
+# About Widget
+about_widget_avatar_url: https://avatars2.githubusercontent.com/u/25976974?v=3&u=3c9e1750e772a18b9696c0fd1afa1da0a1bc361d&s=400
+about_widget_text: "<b>莫名何以</b><br>岁月的溪边，捡拾起曾经的落叶，那些过往的画面，随风飘散，徒留一声叹。。。"
+
+
+# Comments.
+comments:
+  # Disqus comments
+  disqus_shortname: 
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Social Media Platforms
+social_platforms:
+  - url: https://twitter.com/?lang=en
+    fa_icon: fa-twitter
+  - url: https://www.facebook.com/
+    fa_icon: fa-facebook
+  - url: https://dribbble.com/
+    fa_icon: fa-dribbble 
+  - url: https://github.com/klugjo/hexo-theme-anodyne
+    fa_icon: fa-github
+  - url: https://plus.google.com/
+    fa_icon: fa-google-plus
+  - url: https://www.behance.net/
+    fa_icon: fa-behance
+  - url: https://500px.com/
+    fa_icon: fa-500px
+  - url: mailto:test@example.com
+    fa_icon: fa-envelope
+  - url: /#
+    fa_icon: fa-rss
+
+# Footer about
+footer_about: "@Untitled. All right reserved | Design & Hexo <a class=\"link dim white\" href=\"http://www.codeblocq.com/\">Jonathan Klughertz</a>"
