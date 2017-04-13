@@ -5,10 +5,12 @@ tags: 安装
 ---
 
 > 1.确定是否安装了Ruby
+
 ```bash
-$ruby -v
+$ ruby -v
 ```
 > 2.安装方法
+
 - 安装方法一：
 安装Sass
 使用
@@ -21,11 +23,11 @@ sudo gem install sass
 2.下载Sass版本
 3.使用gem install 文件地址
 ```bash
-$gem install /Users/***/Downloads/sass-3.4.23.gem 
+$ gem install /Users/***/Downloads/sass-3.4.23.gem 
 ```
 3.使用sass -v 查看Sass版本号
 ```bash
-sass -v
+$ sass -v
 Sass 3.4.23 (Selective Steve)
 ```
 
