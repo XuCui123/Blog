@@ -1,7 +1,7 @@
 ---
 title: 使用Hexo搭建博客（Mac版）
 date: 2017-04-05 11:13:24
-tags:
+tags: 安装
 ---
 
 官方文档：https://hexo.io/zh-cn/

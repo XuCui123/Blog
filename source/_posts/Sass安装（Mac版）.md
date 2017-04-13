@@ -7,7 +7,7 @@ tags: 安装
 > 1.确定是否安装了Ruby
 
 ```bash
-$ ruby -v
+ $ ruby -v
 ```
 > 2.安装方法
 
@@ -28,8 +28,8 @@ $ gem install /Users/***/Downloads/sass-3.4.23.gem
 > 3.使用sass -v 查看Sass版本号
 
 ```bash
-$ sass -v
-Sass 3.4.23 (Selective Steve)
+ $ sass -v
+ Sass 3.4.23 (Selective Steve)
 ```
 
 
