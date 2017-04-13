@@ -25,7 +25,7 @@ sudo gem install sass
 ```bash
 $ gem install /Users/***/Downloads/sass-3.4.23.gem 
 ```
-3.使用sass -v 查看Sass版本号
+> 3.使用sass -v 查看Sass版本号
 ```bash
 $ sass -v
 Sass 3.4.23 (Selective Steve)
