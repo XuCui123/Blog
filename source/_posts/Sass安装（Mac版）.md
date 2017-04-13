@@ -17,7 +17,7 @@ $ ruby -v
 ```bash
 sudo gem install sass
 ```
-进行Sass安装
+
 - 安装方法二：本地安装
 1.在该网站https://rubygems.org/gems/sass
 2.下载Sass版本
