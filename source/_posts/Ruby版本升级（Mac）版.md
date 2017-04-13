@@ -59,8 +59,9 @@ ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-darwin16]
 rvm use 2.4.0 --default
 Using /Users/******/.rvm/gems/ruby-2.4.0
 ```
-> 6.ruby -v
+> 6.查看版本号
 
 ```bash
+ruby -v
 ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-darwin16]
 ```
