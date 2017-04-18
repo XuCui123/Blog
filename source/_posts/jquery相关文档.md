@@ -13,7 +13,7 @@ tags: jQuery
     less中文文档： http://www.css88.com/doc/less/
     正则表达式速查表： http://jquery.cuishifeng.cn/regexp.html
     html5速查表： http://jquery.cuishifeng.cn/html5.html
-4.  jQuery视频
+4.  jQuery视频 （来源：http://blog.csdn.net/lvjin110/article/details/24272823）
 视频: jQuery入门视频教程1—Whatis jQuery中文字幕
 http://v.youku.com/v_show/id_XNTM2MjcxNDQ0.html
 
