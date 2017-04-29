@@ -3,7 +3,6 @@ title: guessinggame
 date: 2017-04-29 17:24:11
 tags: tinygame
 ---
-<!DOCTYPE html>
 <html><head><title>guessinggame</title>
 <script>
 window.onload = newgame;        // Start a new game when we load
