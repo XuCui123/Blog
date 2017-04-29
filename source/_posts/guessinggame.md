@@ -3,8 +3,6 @@ title: guessinggame
 date: 2017-04-29 17:24:11
 tags: tinygame
 ---
-### 猜数字游戏
-```
 <!DOCTYPE html>
 <html><head><title>guessinggame</title>
 <script>
@@ -15,7 +13,9 @@ var state, ui;                  // Globals initialized in newgame()
 function newgame(playagain) {   // Begin a new game of guess-the-number
 // Set up an object to hold document elements we care about
 ui = {
-heading: null, // The <h1> at the top of the document.
+heading: null, // The 
+
+#  at the top of the document.
 prompt: null,  // Ask the user to enter a guess.
 input: null,   // Where the user enters the guess.
 low: null,     // Three table cells for the visual representation
@@ -139,7 +139,10 @@ else {
 ui.input.style.visibility = "hidden";  // No more guesses now
 ui.heading.innerHTML = document.title = state.guess + " is correct! ";
 ui.prompt.innerHTML =
-"<p>Congratulations!</p><button onclick='newgame(true)'>Play Again</button>";
+"
+
+Congratulations!
+<button onclick='newgame(true)'>Play Again</button>";
 }
 }
 </script>
@@ -161,10 +164,10 @@ color: magenta;
 </head>
 <body><!-- The HTML elements below are the game UI -->
 <!-- Game title and textual representation of the range of numbers -->
-<h1 id="heading">I'm thinking of a number...</h1>
+<h1 id="heading">I'm thinking of a number...
+
 <!-- a visual representation of the numbers that haven't been ruled out -->
 <table><tr><td id="low"></td><td id="mid"></td><td id="high"></td></tr></table>
 <!-- Where the user enters their guess -->
 <label id="prompt"></label><input id="input" type="text">
 </body></html>
-```
