@@ -9,6 +9,7 @@ tags: 安装
 
 ### 2.在 https://dev.mysql.com/downloads/ 下找到MySQL Community Server进入下载页，选择合适的版本进行下载。下载页会显示登录和注册，直接选择“No thanks, just start my download.”
 
+
 ## 二.安装
 
 ### 1.下载完成后，点击安装，一直next，直到最后会出现一个初始密码，记下密码。
@@ -30,6 +31,7 @@ newpass 是新密码，此时会需要输入安装第一步中留存的初始密
 ```bash
 mysql -u root -p
 ```
+
 
 ## 三.简单使用
 
