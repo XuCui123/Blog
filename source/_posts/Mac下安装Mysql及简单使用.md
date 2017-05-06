@@ -147,5 +147,4 @@ update mysql.user set password=password('新密码') where User="user1" and Host
 flush privileges;
 ```
 
-
-```
+Mac下的Mysql安装及使用
