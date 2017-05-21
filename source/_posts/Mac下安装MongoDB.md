@@ -23,3 +23,14 @@ brew info mongodb
 ```bash
 mongo --version
 ```
+### 3. 运行mongodb
+
+创建一个数据库存储目录 /data/db：
+```bash
+sudo mkdir -p /data/db
+```
+
+启动 mongodb，默认数据库目录即为 /data/db：
+```bash
+sudo mongod
+```
