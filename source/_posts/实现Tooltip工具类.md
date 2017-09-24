@@ -4,6 +4,7 @@ date: 2017-09-24 23:49:12
 tags: JavaScript
 ---
 实现Tooltip工具类，考虑出现大量实例化时的优化。
+### 方法1
 ```
 var $ = document.querySelector;
 var _options = {
@@ -130,5 +131,55 @@ window.addEventListener("load", _bind);
 }
 
 _init();
+
+```
+
+### 方法2
+
+```
+<span class="tooltip" aria-label="This is a tooltip">Hover over this text to see a tooltip!</span>
+<style>
+.tooltip {
+position: relative;
+display: inline-block;
+}
+
+.tooltip:before, .tooltip:after {
+position: absolute;
+opacity: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(100%);
+transition: all 0.3s;
+z-index: 1010;
+left: 50%;
+bottom: 75%;
+}
+
+.tooltip:hover:before, .tooltip:hover:after, .tooltip:focus:before, .tooltip:focus:after {
+opacity: 1;
+clip: auto;
+clip-path: inset(0%);
+}
+
+.tooltip:before {
+content: '';
+background: transparent;
+border: .5rem solid transparent;
+border-top-color: #212121;
+left: 50%;
+left: calc(50% - .5rem);
+}
+
+.tooltip:after {
+content: attr(aria-label);
+background: #212121;
+border-radius: .125rem;
+color: #fafafa;
+padding: .5rem;
+margin-bottom: 1rem;
+white-space: nowrap;
+transform: translateX(-50%);
+}
+</style>
 
 ```
